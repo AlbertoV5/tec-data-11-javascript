@@ -1,7 +1,38 @@
-#+title: readme
+#+title: Readme
 #+subtitle: 
 #+author: Alberto Valdez
 #+SETUPFILE: ./config/org-theme.config
 #+SETUPFILE: ./config/org-header.config
 
-* readme
+* UFO JS
+
+[[https://albertov5.github.io/tec-data-11-javascript/][The Truth is Out There!]]
+
+** Overview
+
+In this project we had the mission to present data in an accessible and dynamic way. We had a few parameters to use for filtering, and even though the filters are simple, we get the information we want at the press of a key.
+
+We managed to provide a fully functional HTML website with dynamic elements powered by Javacript and the best part is that we get to host it in GitHub and share it with clients and colleagues.
+
+** Results
+
+We have a webpage with information at the top which gives us an introduction to the kind of data we are dealing with.
+#+attr_html: :width 700px
+[[./resources/part1.png]]
+
+If we scroll down, we will find a table will all the available data. Note that we have filters in the left side as highlighted with the red rectangle.
+#+attr_html: :width 700px
+[[./resources/part2.png]]
+
+We can filter the table on the right by entering text in the fields on the left. For example, we can look for all UFO with the =shape= of =circle=
+#+attr_html: :width 700px
+[[./resources/part3.png]]
+
+Furthermore, we can make more complex searches by using the other fields. For example, if we wanted all sightings on =1/1/2010= in the =state= of =ca= with the =shape= of =light=, then we can do a query like the following:
+
+#+attr_html: :width 700px
+[[./resources/part4.png]]
+
+We've managed to present a clear table in a compelling way without a single piece of code from the user.
+
+** Summary
